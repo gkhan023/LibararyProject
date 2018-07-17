@@ -23,7 +23,6 @@ public class MainActivity extends AppCompatActivity {
         }
 
         double mean = CalculateFormulae.arithmeticMean(numbers).doubleValue();
-
         Toast.makeText(getApplicationContext(), "mean = " + mean, Toast.LENGTH_SHORT).show();
 
     }
